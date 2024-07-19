@@ -1,0 +1,75 @@
+/* Initial DOM CSS */
+body{
+    background-color: #093360;
+}
+
+.initialInfo {
+    text-align: center;
+}
+
+h1 {
+    font-family : "Creepster", system-ui; /* Google Font */
+    margin-top  : 5vh;
+    color       : #fafafa;
+}
+
+/* Bootstrap Card CSS */
+.card {
+    background-color: #3c8555;
+    color           : #f3f5f8;
+}
+
+.card-header {
+    background-color: #070707;
+    text-align      : center;
+    font-size       : larger;
+    font-weight     : bold;
+}
+
+.card-img-top {
+    display     : flex;
+    align-items : center;
+    padding     : 5%;
+    height      : 40vh;
+}
+
+.card-text {
+    text-align  : center;
+    font-weight : 500;
+}
+
+.text-center {
+    margin-bottom: 2vh;
+}
+
+button{
+    background-color: #378a58;
+    color           : rgb(251, 247, 250);
+}
+
+.weather {
+    color: rgb(46, 12, 12);
+}
+
+/* Loader CSS */
+#loaderContainter {
+    position: relative;
+    height  : 100%;
+    width   : 100%;
+}
+
+.loader {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    height: 20vh;
+}
+
+@media screen and (min-width: 768px) and (min-height: 1024px) {
+    .card-img-top {
+        height  : 20vh;
+    }
+}
